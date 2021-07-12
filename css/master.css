@@ -68,6 +68,12 @@ h1, h2, h3, .lead, .title, .nav a {
   text-decoration: underline; /* adds the underline when hovering the list elements */
 }
 
+.lead{
+  font-size: 24px;
+  margin: 20px 0;
+
+}
+
 .news-item{
   margin-bottom: 20px;
 }
@@ -85,6 +91,10 @@ h1, h2, h3, .lead, .title, .nav a {
   color: 	#1E90FF;
   display: inline-block;
   text-decoration: none;
+}
+
+.news-item a:hover {
+  color: rgb(0, 191, 255);
 }
 
 .gallery-items img {
