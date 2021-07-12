@@ -1,0 +1,28 @@
+body{
+  margin: 0;
+}
+
+main {
+  display: flex; /*to display columns side by side*/
+  min-height: 1500px;
+}
+
+.main-left {
+  width: 30%;
+  background: #000;
+  padding-top: 100px;
+  padding-left: 30px;
+  background-image:  url("../images/food_display.jpeg");
+  background-position: 0 0;
+  background-size: cover;
+}
+
+.main-right {
+  width: 70%;
+  background: #fff;
+}
+
+.main-left h1,
+.main-left h2 {
+  color: #fff; /*color text for left view */
+}
